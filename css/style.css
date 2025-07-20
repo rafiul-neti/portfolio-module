@@ -144,3 +144,32 @@ main{
     gap: 25px;
     padding: 30px;
 }
+/* Resume styles */
+
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-column{
+    
+}
+.resume-column-title{
+    font-size: 30px;
+}
+.experience-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 600;
+}
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 550;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.resume-download{
+    margin-top: 50px;
+}
