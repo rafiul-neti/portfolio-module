@@ -9,6 +9,9 @@
 }
 
 /* shared styles */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -30,6 +33,20 @@
     border: none;
     border-radius: 5px;
 }
+
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+}
+.text-center{
+    text-align: center;
+}
+
 /* header styles */
 
 header{
@@ -96,4 +113,34 @@ nav ul li a {
 }
 .banner img{
     width: 580px;
+}
+/* about styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 140px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* What I do Styles */
+
+.skills{
+    padding: 0px 150px 0 150px;
+}
+.skills-container{
+    display: flex;
+}
+.skill{
+    gap: 25px;
+    padding: 30px;
 }
